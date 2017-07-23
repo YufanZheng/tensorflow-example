@@ -1,0 +1,16 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 22 22:12:50 2017
+
+@author: yufan
+"""
+
+import tensorflow as tf
+
+a = tf.constant( [1.0, 2.0], name="a" )
+b = tf.constant( [2.0, 3.0], name="b" )
+
+result = a + b
+
+print a.graph is tf.get_default_graph()
