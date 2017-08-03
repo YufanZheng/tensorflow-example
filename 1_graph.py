@@ -3,7 +3,7 @@
 import tensorflow as tf
 
 """
-    Tensorflow use different graphs to separate different calculations
+    Tensorflow use different graphs to distinguish calculations
 """
 
 # GRAPH 1

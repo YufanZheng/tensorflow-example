@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+"""
+    A complete example using session to train linear model
+"""
 
 import tensorflow as tf
 

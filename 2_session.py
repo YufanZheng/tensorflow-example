@@ -9,7 +9,7 @@ Created on Sat Jul 22 22:39:17 2017
 import tensorflow as tf
 
 """
- Notes: 
+ Notes on Tensors: 
     
  a, b, result are tensors
  Tensor is an high dimensional array but it doesn't save the data,

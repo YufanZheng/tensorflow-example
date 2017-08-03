@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 
+"""
+    Softmax example:
+        - Use Gradient Descent to Minimize Cross Entropy
+"""
+
 from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 
