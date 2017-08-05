@@ -66,8 +66,5 @@ y = cur_layer
 # 损失函数的第一部分为方差的平均，第二部分为二阶正则化因子
 loss = tf.reduce_mean( tf.square(y_ - y) ) + tf.add_n( tf.get_collection("regularizer_losses") )
 
-
-
-
-
+# Add the training steps below ...
 
