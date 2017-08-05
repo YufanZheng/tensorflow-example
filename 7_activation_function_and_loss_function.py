@@ -81,17 +81,3 @@ with tf.Session() as sess:
                  feed_dict={ x: X, y_:Y } )
         if i % 100 == 0:
             print( sess.run(w) )
-
-
-
-
-
-
-
-
-
-
-
-
-
-

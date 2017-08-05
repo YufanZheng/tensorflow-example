@@ -52,5 +52,3 @@ with tf.Session() as sess:
         if i % 100 == 0:
             print( sess.run(W) )
     
-    
-
